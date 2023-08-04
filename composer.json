@@ -1,0 +1,36 @@
+{
+  "name": "jambagecom/t3skin-icons",
+  "type": "typo3-cms-extension",
+  "description": "TYPO3 skin images.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "t3skin"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/t3skin_icons/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
+    "typo3/cms-reports": "^10.4 || ^11.5 || ^12.4"    
+  },
+  "replace": {
+    "typo3-ter/t3skin-icons": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "t3skin_icons"
+    }
+  }
+}
