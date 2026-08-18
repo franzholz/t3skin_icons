@@ -9,7 +9,7 @@ $EM_CONF[$_EXTKEY] = [
   'title' => 'TYPO3 Skin Icons',
   'description' => 'This library offers the t3skin icons.',
   'category' => 'misc',
-  'version' => '1.0.1',
+  'version' => '1.1.0',
   'state' => 'stable',
   'uploadfolder' => 0,
   'clearcacheonload' => 0,
@@ -20,7 +20,7 @@ $EM_CONF[$_EXTKEY] = [
   [
     'depends' =>
     [
-      'typo3' => '10.4.0-13.5.99',
+      'typo3' => '12.4.0-14.3.99'2
     ],
     'suggests' =>
     [

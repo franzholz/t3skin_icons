@@ -22,14 +22,18 @@
     "GPL-2.0-or-later"
   ],
   "require": {
-    "typo3/cms-core": "^10.4 || ^11.5 || ^12.4 || ^13"
+    "typo3/cms-core": "^12.4 || ^13 || ^14"
   },
   "replace": {
     "typo3-ter/t3skin-icons": "self.version"
   },
   "extra": {
     "typo3/cms": {
-      "extension-key": "t3skin_icons"
+      "extension-key": "t3skin_icons",
+      "version": "1.1.0",
+      "Package": {
+          "providesPackages": {}
+      }
     }
   }
 }
